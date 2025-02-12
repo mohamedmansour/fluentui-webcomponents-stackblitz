@@ -1,0 +1,21 @@
+{
+  "name": "fluentui-webcomponents-template",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@fluentui/web-components": "3.0.0-beta.79",
+    "@fluentui/tokens": "1.0.0-alpha.21",
+    "@microsoft/fast-element": "2.0.1",
+    "@microsoft/fast-web-utilities": "6.0.0"
+  },
+  "devDependencies": {
+    "typescript": "~5.7.2",
+    "vite": "^6.1.0"
+  }
+}
