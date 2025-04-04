@@ -5,3 +5,5 @@ import { webLightTheme } from '@fluentui/tokens';
 import './repro.js';
 
 setTheme(webLightTheme);
+
+document.body.removeAttribute('hidden')

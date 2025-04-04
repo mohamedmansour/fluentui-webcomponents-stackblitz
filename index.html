@@ -5,16 +5,60 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>@fluentui/web-components Template</title>
     <style>
+      * {
+        box-sizing: border-box;
+      }
       html,
       body {
         width: 100%;
         height: 100%;
         margin: 0;
       }
+      body {
+        display: flex;
+        background: hotpink;
+      }
+      repro-elem {
+        width: 200px;
+      }
+      app-shell {
+        flex: 1;
+        display: flex;
+        flex-direction: column;
+        background: yellowgreen;
+      }
+      body[hidden] {
+        visibility: hidden;
+      }
     </style>
   </head>
-  <body>
+  <body hidden>
     <repro-elem></repro-elem>
+    <app-shell>
+      <fluent-button>A</fluent-button>
+      <fluent-button>B</fluent-button>
+      <fluent-button>C</fluent-button>
+      <fluent-button>D</fluent-button>
+      <fluent-button>E</fluent-button>
+      <fluent-button>F</fluent-button>
+      <fluent-button>G</fluent-button>
+      <fluent-button>H</fluent-button>
+      <fluent-button>I</fluent-button>
+      <fluent-button>J</fluent-button>
+      <fluent-button>K</fluent-button>
+      <fluent-button>L</fluent-button>
+      <fluent-button>M</fluent-button>
+      <fluent-button>N</fluent-button>
+      <fluent-button>O</fluent-button>
+      <fluent-button>P</fluent-button>
+      <fluent-button>Q</fluent-button>
+      <fluent-button>R</fluent-button>
+      <fluent-button>S</fluent-button>
+      <fluent-button>T</fluent-button>
+      <fluent-button>U</fluent-button>
+      <fluent-button>V</fluent-button>
+      <fluent-button>W</fluent-button>
+    </app-shell>
     <script type="module" src="/src/index.js"></script>
   </body>
 </html>
