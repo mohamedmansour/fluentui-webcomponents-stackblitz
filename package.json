@@ -9,13 +9,13 @@
     "preview": "vite preview"
   },
   "dependencies": {
-    "@fluentui/web-components": "3.0.0-beta.79",
+    "@fluentui/web-components": "3.0.0-beta.86",
     "@fluentui/tokens": "1.0.0-alpha.21",
-    "@microsoft/fast-element": "2.0.1",
+    "@microsoft/fast-element": "2.1.0",
     "@microsoft/fast-web-utilities": "6.0.0"
   },
   "devDependencies": {
-    "typescript": "~5.7.2",
-    "vite": "^6.1.0"
+    "typescript": "5.8.2",
+    "vite": "^6.2.0"
   }
 }
